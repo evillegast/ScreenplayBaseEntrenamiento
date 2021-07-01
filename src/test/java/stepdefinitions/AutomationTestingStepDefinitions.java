@@ -13,8 +13,6 @@ import org.openqa.selenium.WebDriver;
 
 import java.util.List;
 
-import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
-
 public class AutomationTestingStepDefinitions {
 
 
@@ -35,7 +33,7 @@ public class AutomationTestingStepDefinitions {
 
     @Cuando("^ingreso mis credenciales$")
     public void ingresoMisCredenciales(List<Usuario> ListaIngresoCredenciales) {
-        theActorCalled("Ramona").wasAbleTo(List.
+        //theActorCalled("Ramona").wasAbleTo(List
     }
 
     @Entonces("^veo el panel principal$")

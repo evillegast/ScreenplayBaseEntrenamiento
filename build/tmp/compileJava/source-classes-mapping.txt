@@ -6,5 +6,7 @@ tasks/AbrirNavegadorPaginaPpal.java
  tasks.AbrirNavegadorPaginaPpal
 userinterfaces/HomePage.java
  userinterfaces.HomePage
+interactions/Acceder.java
+ interactions.Acceder
 tasks/HacerClickElementos.java
  tasks.HacerClickElementos

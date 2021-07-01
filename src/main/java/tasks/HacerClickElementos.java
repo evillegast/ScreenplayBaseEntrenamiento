@@ -5,7 +5,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 
-import static userinterfaces.HomePage.*;
+import static ui.PaginaPrincipal.*;
 
 public class HacerClickElementos implements Task {
 

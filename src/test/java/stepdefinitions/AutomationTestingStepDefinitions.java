@@ -13,6 +13,7 @@ import org.openqa.selenium.WebDriver;
 
 import java.util.List;
 
+
 public class AutomationTestingStepDefinitions {
 
 
@@ -33,8 +34,11 @@ public class AutomationTestingStepDefinitions {
 
     @Cuando("^ingreso mis credenciales$")
     public void ingresoMisCredenciales(List<Usuario> ListaIngresoCredenciales) {
-        //theActorCalled("Ramona").wasAbleTo(List
-    }
+        //theActorCalled("Ramona").wasAbleTo(List<Usuario> ListaIngresoCredenciales){
+            ListaIngresoCredenciales.get(0).getUsuario();
+            ListaIngresoCredenciales.get(0).getPassword();
+        }
+
 
     @Entonces("^veo el panel principal$")
     public void veoElPanelPrincipal() {

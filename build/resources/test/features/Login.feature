@@ -14,4 +14,3 @@ Característica: ingresar a la pagina practice.automationtesting
     Ejemplos:
       | Usuario      | Password       |
       | evillegas438 | SemilleroSQA.* |
-      | evillegas    | semillero      |

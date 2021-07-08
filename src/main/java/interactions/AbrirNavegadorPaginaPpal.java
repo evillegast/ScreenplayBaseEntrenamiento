@@ -5,6 +5,7 @@ import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Open;
 
+
 public class AbrirNavegadorPaginaPpal implements Interaction {
 
 
@@ -12,6 +13,10 @@ public class AbrirNavegadorPaginaPpal implements Interaction {
 
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Open.url("\"https://opensource-demo.orangehrmlive.com/index.php\""));
+        actor.attemptsTo(
+
+                );
+
 
     }
 

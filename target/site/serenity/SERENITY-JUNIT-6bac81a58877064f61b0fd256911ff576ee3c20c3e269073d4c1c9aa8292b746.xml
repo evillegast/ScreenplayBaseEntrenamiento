@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="ingresar a la pagina practice.automationtesting" skipped="0" tests="1" time="0.63" timestamp="2021-06-16 08:27:11"><testcase name="Acceso al panel de control usuario"><error type="java.lang.NullPointerException"/><system-err>null&#13;
-interactions.AbrirNavegadorPaginaPpal.performAs(Acceder.java:13)&#13;
-stepdefinitions.AutomationTestingStepDefinitions.queActorAccedeALaWeb(AutomationTestingStepDefinitions.java:33)&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-</system-err></testcase></testsuite>

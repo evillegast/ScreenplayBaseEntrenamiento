@@ -7,10 +7,13 @@ Característica: ingresar a la pagina practice.automationtesting
   Esquema del escenario: Acceso a la pagina Principal
     Dado  que Actor accede a la web
     Cuando ingreso mis credenciales
-      | usuario   | password   |
-      | <Usuario> | <Password> |
+      | <usuario>| <password> |
     Entonces veo el panel principal
 
     Ejemplos:
-      | Usuario      | Password       |
-      | evillegas438 | SemilleroSQA.* |
+      | usuario | password |
+      | Admin   | admin123 |
+
+
+
+

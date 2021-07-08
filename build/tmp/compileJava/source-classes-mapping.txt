@@ -1,10 +1,14 @@
-ui/PaginaPrincipal.java
- ui.PaginaPrincipal
-tasks/HacerClickElementos.java
- tasks.HacerClickElementos
+utils/UserEnum.java
+ utils.UserEnum
 questions/HacerClickBoton.java
  questions.HacerClickBoton
 models/Usuario.java
  models.Usuario
 interactions/AbrirNavegadorPaginaPpal.java
  interactions.AbrirNavegadorPaginaPpal
+tasks/CrearEmpleado.java
+ tasks.CrearEmpleado
+tasks/HacerLogin.java
+ tasks.HacerLogin
+userinterfaces/PaginaPrincipal.java
+ userinterfaces.PaginaPrincipal

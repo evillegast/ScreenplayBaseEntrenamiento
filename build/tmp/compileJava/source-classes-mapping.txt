@@ -1,14 +1,20 @@
-utils/UserEnum.java
- utils.UserEnum
-questions/HacerClickBoton.java
- questions.HacerClickBoton
+tasks/EliminarRegistro.java
+ tasks.EliminarRegistro
 models/Usuario.java
  models.Usuario
 interactions/AbrirNavegadorPaginaPpal.java
  interactions.AbrirNavegadorPaginaPpal
+userinterfaces/EliminarEmpleado.java
+ userinterfaces.EliminarEmpleado
+utils/UserEnum.java
+ utils.UserEnum
 tasks/CrearEmpleado.java
  tasks.CrearEmpleado
-tasks/HacerLogin.java
- tasks.HacerLogin
-userinterfaces/PaginaPrincipal.java
- userinterfaces.PaginaPrincipal
+userinterfaces/CrearEmpleado.java
+ userinterfaces.CrearEmpleado
+questions/HacerClickBoton.java
+ questions.HacerClickBoton
+userinterfaces/LoginPaginaPrincipal.java
+ userinterfaces.LoginPaginaPrincipal
+tasks/LoginPaginaPrincipal.java
+ tasks.LoginPaginaPrincipal

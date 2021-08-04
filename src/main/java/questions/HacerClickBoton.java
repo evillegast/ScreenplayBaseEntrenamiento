@@ -1,18 +1,25 @@
 package questions;
 
+import net.serenitybdd.core.pages.WithByLocator;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
+import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 
-public class HacerClickBoton implements Question {
+import static userinterfaces.CrearEmpleado.BTN_GENERO;
+
+public class HacerClickBoton implements Question<String> {
 
 
     @Override
-    public Object answeredBy(Actor actor) {
-        return null;
+    public String answeredBy(Actor actor) {
+        return BrowseTheWeb.as(actor).find((WithByLocator) BTN_GENERO).getText();
+
     }
 
     @Override
     public String getSubject() {
         return Question.super.getSubject();
     }
+
+
 }

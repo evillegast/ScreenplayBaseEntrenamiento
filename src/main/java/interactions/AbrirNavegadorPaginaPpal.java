@@ -12,11 +12,7 @@ public class AbrirNavegadorPaginaPpal implements Interaction {
     @Override
 
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Open.url("\"https://opensource-demo.orangehrmlive.com/index.php\""));
-        actor.attemptsTo(
-
-                );
-
+        actor.attemptsTo(Open.url("https://opensource-demo.orangehrmlive.com/index.php"));
 
     }
 

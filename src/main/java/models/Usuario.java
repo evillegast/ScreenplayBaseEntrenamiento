@@ -1,6 +1,9 @@
 package models;
 
-public class Usuario {
+import net.serenitybdd.screenplay.Actor;
+import net.serenitybdd.screenplay.Interaction;
+
+public class Usuario implements Interaction {
 
     String usuario;
     String password;
@@ -14,6 +17,12 @@ public class Usuario {
     public String getPassword() { return password;}
 
     public void setPassword(String password) {this.password = password; }
+
+    @Override
+    public <T extends Actor> void performAs(T actor) {
+
+
+    }
 }
 
 

@@ -1,72 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ingresar a la pagina practice.automationtesting" tests="3" skipped="1" failures="0" errors="0" timestamp="2021-08-04T21:16:30" hostname="LAPTOP-KAP9EEG8" time="63.949">
+<testsuite name="ingresar a la pagina practice.automationtesting" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-08-05T14:47:22" hostname="LAPTOP-KAP9EEG8" time="57.598">
   <properties/>
-  <testcase name="Acceso a la pagina Principal" classname="ingresar a la pagina practice.automationtesting" time="17.524">
-    <skipped/>
+  <testcase name="Acceso a la pagina Principal" classname="ingresar a la pagina practice.automationtesting" time="57.598">
+    <failure message="java.lang.AssertionError: &#10;Expected: an element that is present&#10;     but: no matching element found by id: menu_buzz_viewBuzz was not present" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: an element that is present
+     but: no matching element found by id: menu_buzz_viewBuzz was not present
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:301)
+	at stepdefinitions.AutomationTestingStepDefinitions.el_introduce_su_credenciales(AutomationTestingStepDefinitions.java:58)
+	at ✽.el introduce su credenciales(src/test/resources/features/Login.feature:9)
+</failure>
+    <failure message="cucumber.runtime.junit.UndefinedThrowable: The step &quot;veo el panel principal&quot; is undefined" type="cucumber.runtime.junit.UndefinedThrowable">cucumber.runtime.junit.UndefinedThrowable: The step &quot;veo el panel principal&quot; is undefined
+</failure>
   </testcase>
-  <testcase name="Crear nuevo registro" classname="ingresar a la pagina practice.automationtesting" time="25.067"/>
-  <testcase name="Eliminar Registro" classname="ingresar a la pagina practice.automationtesting" time="21.347"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Aug 04, 2021 4:16:30 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[Aug 05, 2021 9:47:23 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized --disable..., goog:chromeOptions: {args: [--start-maximized, --disable-popup-blocking, --no-sandbox, --ignore-certificate-errors], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, supportsAlerts: false, version: }
-Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 29434
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 41877
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 04, 2021 4:16:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 05, 2021 9:47:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
 
-TEST PENDING: Acceso a la pagina Principal
----------------------------------------------------------------------------------
-Aug 04, 2021 4:16:47 PM org.openqa.selenium.remote.DesiredCapabilities chrome
-INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized --disable..., goog:chromeOptions: {args: [--start-maximized, --disable-popup-blocking, --no-sandbox, --ignore-certificate-errors], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, supportsAlerts: false, version: }
-Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 21189
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Aug 04, 2021 4:16:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
-        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
-  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
- (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
-  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
- (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
-        /_/                                                                
-
-TEST PASSED: Crear nuevo registro
-----------------------------------------------------------------------------
-Aug 04, 2021 4:17:12 PM org.openqa.selenium.remote.DesiredCapabilities chrome
-INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized --disable..., goog:chromeOptions: {args: [--start-maximized, --disable-popup-blocking, --no-sandbox, --ignore-certificate-errors], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, supportsAlerts: false, version: }
-Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 21056
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Aug 04, 2021 4:17:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
-        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
-  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
- (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
-  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
- (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
-        /_/                                                                
-
-TEST PASSED: Eliminar Registro
-----------------------------------------------------------------------------
+TEST FAILED: Acceso a la pagina Principal
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then Verificar_Pagina should be an element that is present
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected: an element that is present but: no matching element found by id: menu_buzz_viewBuzz was not present
 ]]></system-err>
 </testsuite>

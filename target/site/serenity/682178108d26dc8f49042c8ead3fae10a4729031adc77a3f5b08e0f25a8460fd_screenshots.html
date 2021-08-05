@@ -132,7 +132,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-08-2021 16:17</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-08-2021 09:28</span>
     <br style="clear:left"/>
 </div>
 
@@ -173,9 +173,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Eliminar Registro
+                                <span class="failing-color">Eliminar Registro
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -192,6 +192,52 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>stepdefinitions.AutomationTestingStepDefinitions.elimina_el_registro(AutomationTestingStepDefinitions.java:87)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.id: ohrmList_chkSelectRecord_41 to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                        <pre>stepdefinitions.AutomationTestingStepDefinitions.elimina_el_registro(AutomationTestingStepDefinitions.java :87)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource6383445619092786561.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
                 <img src="bbe16f89b7f903e900866ee0e33d3eea0ca930bc744d1aadfba3b01e77320985.png" title=" Dado que Paul accede a la web de Orange" width="1366"/>
@@ -200,36 +246,25 @@
                 <img src="1a055479cac4eb8b6599943c1276db83ae1c240531bac69c9281e6f463afe013.png" title=" Cuando el introduce su credenciales
 | &lt;usuario&gt; | &lt;password&gt; |" width="1366"/>
                 <img src="1a055479cac4eb8b6599943c1276db83ae1c240531bac69c9281e6f463afe013.png" title=" Ramona enters 'Admin' into INGRESAR USUARIO" width="1366"/>
+                <img src="1a055479cac4eb8b6599943c1276db83ae1c240531bac69c9281e6f463afe013.png" title=" Ramona enters 'Admin' into INGRESAR USUARIO (completed)" width="1366"/>
                 <img src="1a055479cac4eb8b6599943c1276db83ae1c240531bac69c9281e6f463afe013.png" title=" Ramona enters 'admin123' into INGRESAR PASSWORD" width="1366"/>
                 <img src="56047fb617fc14e2eb4926bebe927f0970b3c08fcd52dd51cecbda86b8dbd6f4.png" title=" Ramona enters 'admin123' into INGRESAR PASSWORD" width="1366"/>
                 <img src="56047fb617fc14e2eb4926bebe927f0970b3c08fcd52dd51cecbda86b8dbd6f4.png" title=" Ramona enters 'admin123' into INGRESAR PASSWORD (completed)" width="1366"/>
                 <img src="56047fb617fc14e2eb4926bebe927f0970b3c08fcd52dd51cecbda86b8dbd6f4.png" title=" Ramona clicks on HACER LOGIN" width="1366"/>
                 <img src="9a2b211b8ed4db1941cfba39a820678b4a9ca7ef123db8143839400942a44678.png" title=" Ramona clicks on HACER LOGIN" width="1366"/>
                 <img src="9a2b211b8ed4db1941cfba39a820678b4a9ca7ef123db8143839400942a44678.png" title=" Ramona clicks on HACER LOGIN (completed)" width="1366"/>
-                <img src="f3de7b95fe78541e86ce64832c91e8b2faee108d052c5636bf7393793d54026c.png" title=" Then Verificar_Pagina should be an element that is present" width="1366"/>
-                <img src="f3de7b95fe78541e86ce64832c91e8b2faee108d052c5636bf7393793d54026c.png" title=" Then Verificar_Pagina should be an element that is present (completed)" width="1366"/>
-                <img src="f3de7b95fe78541e86ce64832c91e8b2faee108d052c5636bf7393793d54026c.png" title=" Cuando el introduce su credenciales
+                <img src="4acb342961c701bf6e0af7c74faa198c1108f49c770152501d1591873bfed4c2.png" title=" Then Verificar_Pagina should be an element that is present" width="1366"/>
+                <img src="4acb342961c701bf6e0af7c74faa198c1108f49c770152501d1591873bfed4c2.png" title=" Then Verificar_Pagina should be an element that is present (completed)" width="1366"/>
+                <img src="4acb342961c701bf6e0af7c74faa198c1108f49c770152501d1591873bfed4c2.png" title=" Cuando el introduce su credenciales
 | &lt;usuario&gt; | &lt;password&gt; | (completed)" width="1366"/>
-                <img src="646fa0703590e6dddc4129621b0649b12d59d3522423c538613a7928dfe22591.png" title=" Y elimina el registro" width="1366"/>
-                <img src="646fa0703590e6dddc4129621b0649b12d59d3522423c538613a7928dfe22591.png" title=" Ramona clicks on INGRESAR PIM" width="1366"/>
-                <img src="646fa0703590e6dddc4129621b0649b12d59d3522423c538613a7928dfe22591.png" title=" Ramona clicks on INGRESAR PIM (completed)" width="1366"/>
-                <img src="646fa0703590e6dddc4129621b0649b12d59d3522423c538613a7928dfe22591.png" title=" Ramona clicks on INGRESAR_EMPLEADO" width="1366"/>
-                <img src="71865ac3dadc60c5e6c507be881588d7c6fd125a1496e4f31847ef0f48319cd1.png" title=" Ramona clicks on INGRESAR_EMPLEADO" width="1366"/>
-                <img src="71865ac3dadc60c5e6c507be881588d7c6fd125a1496e4f31847ef0f48319cd1.png" title=" Ramona clicks on INGRESAR_EMPLEADO (completed)" width="1366"/>
-                <img src="71865ac3dadc60c5e6c507be881588d7c6fd125a1496e4f31847ef0f48319cd1.png" title=" Ramona clicks on Eliminar_Empleado" width="1366"/>
-                <img src="cb13d9411d2b84dfd37cafc89ac6fc72b7ef060a05e217c30d1105d58840b5f3.png" title=" Ramona clicks on Eliminar_Empleado" width="1366"/>
-                <img src="cb13d9411d2b84dfd37cafc89ac6fc72b7ef060a05e217c30d1105d58840b5f3.png" title=" Ramona clicks on Eliminar_Empleado (completed)" width="1366"/>
-                <img src="cb13d9411d2b84dfd37cafc89ac6fc72b7ef060a05e217c30d1105d58840b5f3.png" title=" Ramona clicks on Borrar_Empleado" width="1366"/>
-                <img src="50919d29f71f513de70240ad2b458909584aaa6c7a3fbe103c1595c3f6f2b900.png" title=" Ramona clicks on Borrar_Empleado" width="1366"/>
-                <img src="50919d29f71f513de70240ad2b458909584aaa6c7a3fbe103c1595c3f6f2b900.png" title=" Ramona clicks on Borrar_Empleado (completed)" width="1366"/>
-                <img src="50919d29f71f513de70240ad2b458909584aaa6c7a3fbe103c1595c3f6f2b900.png" title=" Ramona clicks on OK_BORRAR" width="1366"/>
-                <img src="2e69a3bc1c1dfa37478315044dcba3bac612f78ce6bb6dabd5bf8b1c4d1e3e6d.png" title=" Ramona clicks on OK_BORRAR" width="1366"/>
-                <img src="2e69a3bc1c1dfa37478315044dcba3bac612f78ce6bb6dabd5bf8b1c4d1e3e6d.png" title=" Ramona clicks on OK_BORRAR (completed)" width="1366"/>
-                <img src="2e69a3bc1c1dfa37478315044dcba3bac612f78ce6bb6dabd5bf8b1c4d1e3e6d.png" title=" Y elimina el registro (completed)" width="1366"/>
-                <img src="fcc8b1f7b5fcb2ce9921e7299b4aeb8315e49b54bddc55a0fb0fd4f5db7d0025.png" title=" Entonces el visualiza el mensaje success delete" width="1366"/>
-                <img src="fcc8b1f7b5fcb2ce9921e7299b4aeb8315e49b54bddc55a0fb0fd4f5db7d0025.png" title=" Then OK_BORRAR should be an element that is present" width="1366"/>
-                <img src="fcc8b1f7b5fcb2ce9921e7299b4aeb8315e49b54bddc55a0fb0fd4f5db7d0025.png" title=" Then OK_BORRAR should be an element that is present (completed)" width="1366"/>
-                <img src="fcc8b1f7b5fcb2ce9921e7299b4aeb8315e49b54bddc55a0fb0fd4f5db7d0025.png" title=" Entonces el visualiza el mensaje success delete (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="4acb342961c701bf6e0af7c74faa198c1108f49c770152501d1591873bfed4c2.png" title=" Y elimina el registro" width="1366"/>
+                <img src="7fa89dec72f7ea1fbfc8e3c2625ee54c99c647877287fc0709dd1dab9d580efb.png" title=" Ramona clicks on INGRESAR PIM" width="1366"/>
+                <img src="7fa89dec72f7ea1fbfc8e3c2625ee54c99c647877287fc0709dd1dab9d580efb.png" title=" Ramona clicks on INGRESAR PIM (completed)" width="1366"/>
+                <img src="7fa89dec72f7ea1fbfc8e3c2625ee54c99c647877287fc0709dd1dab9d580efb.png" title=" Ramona clicks on INGRESAR_EMPLEADO" width="1366"/>
+                <img src="a057d51965b529b7d5a030ce66c637ea94c04ae5ca9159b239b63b51af93c85e.png" title=" Ramona clicks on INGRESAR_EMPLEADO" width="1366"/>
+                <img src="a057d51965b529b7d5a030ce66c637ea94c04ae5ca9159b239b63b51af93c85e.png" title=" Ramona clicks on INGRESAR_EMPLEADO (completed)" width="1366"/>
+                <img src="a057d51965b529b7d5a030ce66c637ea94c04ae5ca9159b239b63b51af93c85e.png" title=" Ramona clicks on Eliminar_Empleado" width="1366"/>
+                <img src="ed28547093ca5fae665e4ab5191095174f336b2ea2eceeeade44370a45bc652a.png" title=" Ramona clicks on Eliminar_Empleado (completed): <span class='failing-color'>FAILURE</span>" width="1366"/>
             </div>
         </div>
 

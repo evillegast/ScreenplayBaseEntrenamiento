@@ -2,8 +2,8 @@ tasks/EliminarRegistro.java
  tasks.EliminarRegistro
 models/Usuario.java
  models.Usuario
-interactions/AbrirNavegadorPaginaPpal.java
- interactions.AbrirNavegadorPaginaPpal
+tasks/LoginPaginaPrincipal.java
+ tasks.LoginPaginaPrincipal
 userinterfaces/EliminarEmpleado.java
  userinterfaces.EliminarEmpleado
 utils/UserEnum.java
@@ -16,5 +16,5 @@ questions/HacerClickBoton.java
  questions.HacerClickBoton
 userinterfaces/LoginPaginaPrincipal.java
  userinterfaces.LoginPaginaPrincipal
-tasks/LoginPaginaPrincipal.java
- tasks.LoginPaginaPrincipal
+interactions/AbrirNavegadorPaginaPpal.java
+ interactions.AbrirNavegadorPaginaPpal

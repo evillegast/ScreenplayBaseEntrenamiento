@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"ingresar a la pagina practice.automationtesting","Acceso a la pagina Principal","PENDING","2021-08-04T14:35:27.567-05:00[America/Bogota]","0.0","16.44"
-"ingresar a la pagina practice.automationtesting","Crear nuevo registro","ERROR","2021-08-04T14:35:44.011-05:00[America/Bogota]","0.0","31.44"
-"ingresar a la pagina practice.automationtesting","Eliminar Registro","ERROR","2021-08-04T14:36:16.508-05:00[America/Bogota]","0.0","4.68"
+"ingresar a la pagina practice.automationtesting","Acceso a la pagina Principal","PENDING","2021-08-04T16:16:29.923-05:00[America/Bogota]","0.0","17.64"
+"ingresar a la pagina practice.automationtesting","Crear nuevo registro","SUCCESS","2021-08-05T09:18:48.596-05:00[America/Bogota]","0.0","40.57"
+"ingresar a la pagina practice.automationtesting","Eliminar Registro","SUCCESS","2021-08-05T09:20:46.437-05:00[America/Bogota]","0.0","26.35"
